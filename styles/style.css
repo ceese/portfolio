@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(80,80,80);
+  margin: 80px;
+  font-family: "helvetica", "Arial", sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 1.2em;
+  border-radius: 12px;
+  border: 1px solid rgb(80,80,80);
+  font-style: normal;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+a:visited {
+  color: gray;
+  font-size: .5em;
+}
+nav {
+  height: 30px;
+  width: 70%;
+  background-color: azure;
+  text-align: center;
+  padding: 1em;
+  border-radius: 1em;
+  color: darkblue;
+  font-weight: 600;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  background-color: beige;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid gray;
+  border-radius: .5em;
+    }
+nav a:hover {
+  background-color: dimgray;
+  padding: .25em;
+  border-radius: .25em;
+}
+article {
+  background-color: beige;
+  padding: 1em;
+  width: 70%;
+  border-radius: 2em;
+}
+h1 {
+  width: 70%;
+  border-radius: 20px;
+  font-family: "Times New Roman", "Times", serif;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+}
+img {
+  height: 4%;
+  width: 4%;
+  vertical-align: middle;
+  border-radius: 12px 20px 0px 10px;
+  margin: 5px;
+  padding: 1em;
+  border: 2px solid black;
+  background-color: white;
+}
+li {
+  list-style-type: upper-alpha;
+  font-style: oblique;
+}
+footer {
+  font-size: small;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: black;
+  padding: 1em;
+  border-radius: 1em;
+  width: 70%;
+  text-align: center;
+  border: 1px dashed white;
+  margin-top: 1em;
+}
