@@ -1,17 +1,26 @@
 body {
-  background-color: rgb(80,80,80);
+  background-color: #A1E8D9;
   margin: 80px;
-  font-family: "helvetica", "Arial", sans-serif;
+  font-family: 'Rokkitt', 400;
 }
-a:hover {
+.mighty {
+  background-color: #CFC291;
+}
+
+a {
+  text-decoration: none;
+  color: #FF712C;
+  }
+
+li a:hover {
   text-decoration: none;
   color: white;
-  background-color: black;
-  padding: 1.2em;
-  border-radius: 12px;
-  border: 1px solid rgb(80,80,80);
+  background-color: #CFC291;
+  padding: 1.7em;
+  border-radius: 4px;
+  border: 1px solid #FF712C;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 600;
 }
 a:visited {
@@ -19,9 +28,10 @@ a:visited {
   font-size: .5em;
 }
 nav {
+  float: right;
+  font-family: "Questrial";
   height: 30px;
   width: 70%;
-  background-color: azure;
   text-align: center;
   padding: 1em;
   border-radius: 1em;
@@ -39,22 +49,26 @@ nav a {
   border-radius: .5em;
     }
 nav a:hover {
+  color: white;
   background-color: dimgray;
-  padding: .25em;
+  padding: 1.1em;
   border-radius: .25em;
+  font-size: 1.25em;
 }
 article {
   background-color: beige;
   padding: 1em;
   width: 70%;
-  border-radius: 2em;
+  border-radius: 1em;
+  border: 3px dashed #695D46;
 }
 h1 {
   width: 70%;
+  color: #695D46;
+  font-size: 2em;
   border-radius: 20px;
-  font-family: "Times New Roman", "Times", serif;
+  font-family: "Questrial";
   text-align: center;
-  background-color: white;
   padding: 20px;
 }
 img {
@@ -64,22 +78,26 @@ img {
   border-radius: 12px 20px 0px 10px;
   margin: 5px;
   padding: 1em;
-  border: 2px solid black;
+  border: 2px solid #FF712C;
   background-color: white;
 }
+
+ul { 
+  list-style-type: none;
+}
 li {
-  list-style-type: upper-alpha;
-  font-style: oblique;
+  list-style-type: none;
+  font-family: "Pacifico";
 }
 footer {
-  font-size: small;
+  font-size: medium;
   font-weight: 600;
-  color: aliceblue;
-  background-color: black;
+  color: #695D46;
+  border: 5px solid #695D46;
   padding: 1em;
   border-radius: 1em;
   width: 70%;
   text-align: center;
-  border: 1px dashed white;
+  border: 3px dashed white;
   margin-top: 1em;
 }
